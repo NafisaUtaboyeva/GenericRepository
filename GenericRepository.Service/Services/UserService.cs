@@ -65,6 +65,7 @@ namespace GenericRepository.Api.Services.Services
 
             var mappedStudent = new User
             {
+                Id = id,
                 FirstName = student.FirstName,
                 LastName = student.LastName
             };
