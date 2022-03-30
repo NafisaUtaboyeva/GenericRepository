@@ -1,4 +1,6 @@
-﻿using GenericRepository.Api.Models.Entities;
+﻿using GenericRepository.Api.Enums;
+using GenericRepository.Api.Models.Entities;
+using System;
 
 namespace GenericRepository.Api.Models
 {

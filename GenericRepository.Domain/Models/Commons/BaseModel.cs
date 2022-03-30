@@ -11,14 +11,14 @@ namespace GenericRepository.Api.Models.Entities
         public int UpdatedBy { get; set; }
         public State Status { get; set; } = State.Created;
 
-        public void Update(int userId)
+        public void Update(int userId=0)
         {
             UpdatedBy = userId;
             EditedDate = DateTime.Now;
             Status = State.Updated;
         }
 
-        public void Deleted(int userId)
+        public void Deleted(int userId=0)
         {
             UpdatedBy = userId;
             EditedDate = DateTime.Now;

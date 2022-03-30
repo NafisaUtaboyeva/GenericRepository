@@ -22,7 +22,6 @@ namespace GenericRepository.Api.Data.Repositories
         public async Task<T> CreateAsync(T entity)
         {
             var entry = await dbSet.AddAsync(entity);
-            dbContext.SaveChanges();
 
             return entry.Entity;
         }
@@ -36,7 +35,6 @@ namespace GenericRepository.Api.Data.Repositories
 
             dbSet.Remove(entry);
 
-            dbContext.SaveChanges();
             return true;
         }
 
@@ -53,8 +51,6 @@ namespace GenericRepository.Api.Data.Repositories
         public async Task<T> UpdateAsync(T entity)
         {
             var entry = dbSet.Update(entity);
-
-            await dbContext.SaveChangesAsync();
 
             return entry.Entity;
         }

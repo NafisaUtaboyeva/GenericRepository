@@ -36,6 +36,8 @@ namespace GenericRepository.Api
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "GenericRepository.Api", Version = "v1" });
             });
 
+            services.AddScoped<IUnitOfWork, UnitOfWork>();
+            services.AddScoped<IStudentService, StudentService>();
             services.AddScoped<IUserRepository, UserRepository>();
             services.AddScoped<IUserService, UserService>();
         }

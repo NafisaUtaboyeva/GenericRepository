@@ -3,7 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32210.308
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericRepository.Api", "GenericRepository.Api\GenericRepository.Api.csproj", "{5FD33F8F-A1DA-4E54-A1EE-E0CB74939B16}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GenericRepository.Api", "GenericRepository.Api\GenericRepository.Api.csproj", "{5FD33F8F-A1DA-4E54-A1EE-E0CB74939B16}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericRepository.Domain", "GenericRepository.Domain\GenericRepository.Domain.csproj", "{3EFEA64B-01FD-431D-B03C-24A7420A7FAF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericRepository.Data", "GenericRepository.Data\GenericRepository.Data.csproj", "{A31BBEB8-3C11-4693-9CD4-E3606886EEC7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericRepository.Service", "GenericRepository.Service\GenericRepository.Service.csproj", "{DBDBFC54-0167-4B17-B545-3EC3C0A529A3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +21,18 @@ Global
 		{5FD33F8F-A1DA-4E54-A1EE-E0CB74939B16}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5FD33F8F-A1DA-4E54-A1EE-E0CB74939B16}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5FD33F8F-A1DA-4E54-A1EE-E0CB74939B16}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3EFEA64B-01FD-431D-B03C-24A7420A7FAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3EFEA64B-01FD-431D-B03C-24A7420A7FAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3EFEA64B-01FD-431D-B03C-24A7420A7FAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3EFEA64B-01FD-431D-B03C-24A7420A7FAF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A31BBEB8-3C11-4693-9CD4-E3606886EEC7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A31BBEB8-3C11-4693-9CD4-E3606886EEC7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A31BBEB8-3C11-4693-9CD4-E3606886EEC7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A31BBEB8-3C11-4693-9CD4-E3606886EEC7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DBDBFC54-0167-4B17-B545-3EC3C0A529A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBDBFC54-0167-4B17-B545-3EC3C0A529A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBDBFC54-0167-4B17-B545-3EC3C0A529A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBDBFC54-0167-4B17-B545-3EC3C0A529A3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

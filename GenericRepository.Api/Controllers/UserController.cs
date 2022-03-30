@@ -2,6 +2,7 @@
 using GenericRepository.Api.Services.Interfaces;
 using GenericRepository.Api.ViewModels;
 using Microsoft.AspNetCore.Mvc;
+using System.Collections.Generic;
 using System.Threading.Tasks;
 
 namespace GenericRepository.Api.Controllers
@@ -28,5 +29,29 @@ namespace GenericRepository.Api.Controllers
             return userService.GetAsync(p => p.Id == id);
         }
 
+
+        [HttpGet]
+        public Task<IEnumerable<User>> GetAll([FromQuery] int pageIndex, int pageSize)
+        {
+            return userService.GetAllAsync(pageIndex, pageSize);
+        }
+
+
+        [HttpPut("{id}")]
+        public Task<User> Update(int id, UserForCreationViewModel user)
+        {
+            return userService.UpdateAsync(id, user);
+        }
+
+
+        [HttpDelete("{id}")]
+        public Task<bool> Delete(int id)
+        {
+            return userService.DeleteAsync(p => p.Id == id);
+        }
     }
 }
+
+
+
+
