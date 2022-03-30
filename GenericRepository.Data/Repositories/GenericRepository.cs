@@ -2,6 +2,7 @@
 using GenericRepository.Api.Data.IRepositories;
 using Microsoft.EntityFrameworkCore;
 using System;
+using System.Collections.Generic;
 using System.Linq;
 using System.Linq.Expressions;
 using System.Threading.Tasks;
@@ -38,7 +39,7 @@ namespace GenericRepository.Api.Data.Repositories
             return true;
         }
 
-        public async Task<IQueryable<T>> GetAllAsync(Expression<Func<T, bool>> predicate = null)
+        public async Task<IEnumerable<T>> GetAllAsync(Expression<Func<T, bool>> predicate = null)
         {
             return predicate is null ? dbSet : dbSet.Where(predicate);
         }

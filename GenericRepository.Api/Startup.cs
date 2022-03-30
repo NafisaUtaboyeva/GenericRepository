@@ -4,6 +4,8 @@ using GenericRepository.Api.Data.Repositories;
 using GenericRepository.Api.Models;
 using GenericRepository.Api.Services.Interfaces;
 using GenericRepository.Api.Services.Services;
+using GenericRepository.Data.IRepositories;
+using GenericRepository.Data.Repositories;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.EntityFrameworkCore;
@@ -37,7 +39,6 @@ namespace GenericRepository.Api
             });
 
             services.AddScoped<IUnitOfWork, UnitOfWork>();
-            services.AddScoped<IStudentService, StudentService>();
             services.AddScoped<IUserRepository, UserRepository>();
             services.AddScoped<IUserService, UserService>();
         }
