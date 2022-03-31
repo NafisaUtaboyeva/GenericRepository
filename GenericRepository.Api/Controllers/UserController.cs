@@ -30,7 +30,7 @@ namespace GenericRepository.Api.Controllers
         }
 
 
-        [HttpGet]
+        [HttpGet("AllUsers")]
         public Task<IEnumerable<User>> GetAll([FromQuery] int pageSize, int pageIndex)
         {
             return userService.GetAllAsync(pageSize, pageIndex);
