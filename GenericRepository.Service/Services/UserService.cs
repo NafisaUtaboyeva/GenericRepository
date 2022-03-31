@@ -41,6 +41,7 @@ namespace GenericRepository.Api.Services.Services
 
             if(user is not null)
             {
+                user.Status = Enums.State.Deleted;
                 var result = await unitOfWork.Users.UpdateAsync(user);
                 await unitOfWork.SaveChangesAsync();
                 return true;
