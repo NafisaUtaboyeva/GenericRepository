@@ -1,6 +1,4 @@
-﻿using GenericRepository.Api.Data.IRepositories;
-using GenericRepository.Api.Data.Repositories;
-using GenericRepository.Api.Models;
+﻿using GenericRepository.Api.Models;
 using GenericRepository.Api.Services.Interfaces;
 using GenericRepository.Api.ViewModels;
 using GenericRepository.Data.IRepositories;
@@ -41,7 +39,7 @@ namespace GenericRepository.Api.Services.Services
 
             if(user is not null)
             {
-                user.Status = Enums.State.Deleted;
+                user.Deleted();
                 var result = await unitOfWork.Users.UpdateAsync(user);
                 await unitOfWork.SaveChangesAsync();
                 return true;
@@ -64,15 +62,12 @@ namespace GenericRepository.Api.Services.Services
         {
             var student = await unitOfWork.Users.GetAsync(p => p.Id == id);
 
-            var mappedStudent = new User
-            {
-                Id = id,
-                FirstName = student.FirstName,
-                LastName = student.LastName
-            };
-            mappedStudent.Update();
+            student.FirstName = user.FirstName;
+            student.LastName = user.LastName;
 
-            var result = await unitOfWork.Users.UpdateAsync(mappedStudent);
+            student.Update();
+
+            var result = await unitOfWork.Users.UpdateAsync(student);
 
             await unitOfWork.SaveChangesAsync();
 

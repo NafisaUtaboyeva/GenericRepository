@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 namespace GenericRepository.Api.Controllers
 {
     [ApiController]
-    [Route("[controller]/[action]")]
+    [Route("[controller]")]
     public class UserController
     {
         private readonly IUserService userService;
