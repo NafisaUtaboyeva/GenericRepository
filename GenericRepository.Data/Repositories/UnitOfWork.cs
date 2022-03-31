@@ -1,5 +1,6 @@
 ﻿using GenericRepository.Api.Data.Context;
 using GenericRepository.Api.Data.IRepositories;
+using GenericRepository.Api.Data.Repositories;
 using GenericRepository.Data.IRepositories;
 using System;
 using System.Collections.Generic;
@@ -13,8 +14,14 @@ namespace GenericRepository.Data.Repositories
     {
         private readonly ProjectDbContext dbContext;
 
-
         public IUserRepository Users { get; private set; }
+
+        public UnitOfWork(ProjectDbContext dbContext)
+        {
+            this.dbContext = dbContext;
+            Users = new UserRepository(dbContext);
+        }
+
 
         public void Dispose()
         {
