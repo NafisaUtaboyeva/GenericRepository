@@ -23,14 +23,14 @@ namespace GenericRepository.Api.Controllers
             return userService.CreateAsync(user);
         }
 
-        [HttpGet]
+        [HttpGet("{id}")]
         public Task<User> Get(int id)
         {
             return userService.GetAsync(p => p.Id == id);
         }
 
 
-        [HttpGet("AllUsers")]
+        [HttpGet]
         public Task<IEnumerable<User>> GetAll([FromQuery] int pageSize, int pageIndex)
         {
             return userService.GetAllAsync(pageSize, pageIndex);

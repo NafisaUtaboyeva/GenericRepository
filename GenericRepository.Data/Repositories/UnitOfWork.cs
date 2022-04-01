@@ -3,9 +3,6 @@ using GenericRepository.Api.Data.IRepositories;
 using GenericRepository.Api.Data.Repositories;
 using GenericRepository.Data.IRepositories;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using System.Threading.Tasks;
 
 namespace GenericRepository.Data.Repositories

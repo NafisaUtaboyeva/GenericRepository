@@ -1,0 +1,49 @@
+2022-04-01 11:32:16.407 +05:00 [INF] Now listening on: https://localhost:5001
+2022-04-01 11:32:16.473 +05:00 [INF] Now listening on: http://localhost:5000
+2022-04-01 11:32:16.474 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-04-01 11:32:16.475 +05:00 [INF] Hosting environment: Development
+2022-04-01 11:32:16.476 +05:00 [INF] Content root path: C:\Users\Nafisa\source\repos\GenericRepository\GenericRepository.Api
+2022-04-01 11:32:17.281 +05:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html - -
+2022-04-01 11:32:17.643 +05:00 [INF] Request starting HTTP/2 GET https://localhost:5001/_vs/browserLink - -
+2022-04-01 11:32:17.643 +05:00 [INF] Request starting HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - -
+2022-04-01 11:32:17.651 +05:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/index.html - - - 200 - text/html;charset=utf-8 374.4418ms
+2022-04-01 11:32:17.659 +05:00 [INF] Request finished HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - - - 200 12000 application/javascript;+charset=utf-8 15.2989ms
+2022-04-01 11:32:17.699 +05:00 [INF] Request finished HTTP/2 GET https://localhost:5001/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 56.0646ms
+2022-04-01 11:32:17.805 +05:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - -
+2022-04-01 11:32:17.924 +05:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 118.6529ms
+2022-04-01 11:32:41.320 +05:00 [INF] Now listening on: https://localhost:5001
+2022-04-01 11:32:41.380 +05:00 [INF] Now listening on: http://localhost:5000
+2022-04-01 11:32:41.382 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-04-01 11:32:41.383 +05:00 [INF] Hosting environment: Development
+2022-04-01 11:32:41.384 +05:00 [INF] Content root path: C:\Users\Nafisa\source\repos\GenericRepository\GenericRepository.Api
+2022-04-01 11:32:41.887 +05:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html - -
+2022-04-01 11:32:42.162 +05:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/index.html - - - 200 - text/html;charset=utf-8 279.6820ms
+2022-04-01 11:32:42.178 +05:00 [INF] Request starting HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - -
+2022-04-01 11:32:42.186 +05:00 [INF] Request finished HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - - - 200 12000 application/javascript;+charset=utf-8 7.3580ms
+2022-04-01 11:32:42.197 +05:00 [INF] Request starting HTTP/2 GET https://localhost:5001/_vs/browserLink - -
+2022-04-01 11:32:42.216 +05:00 [INF] Request finished HTTP/2 GET https://localhost:5001/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 19.3717ms
+2022-04-01 11:32:42.439 +05:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - -
+2022-04-01 11:32:42.554 +05:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 114.3728ms
+2022-04-01 11:33:18.304 +05:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html - -
+2022-04-01 11:33:18.335 +05:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/index.html - - - 200 - text/html;charset=utf-8 30.5021ms
+2022-04-01 11:33:18.339 +05:00 [INF] Request starting HTTP/2 GET https://localhost:5001/_vs/browserLink - -
+2022-04-01 11:33:18.340 +05:00 [INF] Request starting HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - -
+2022-04-01 11:33:18.347 +05:00 [INF] Request finished HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - - - 200 12000 application/javascript;+charset=utf-8 7.0489ms
+2022-04-01 11:33:18.350 +05:00 [INF] Request finished HTTP/2 GET https://localhost:5001/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 10.6528ms
+2022-04-01 11:33:18.655 +05:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - -
+2022-04-01 11:33:18.667 +05:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/favicon-32x32.png - -
+2022-04-01 11:33:18.678 +05:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 23.2595ms
+2022-04-01 11:33:18.700 +05:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2022-04-01 11:33:18.704 +05:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/favicon-32x32.png - - - 200 628 image/png 37.0333ms
+2022-04-01 11:33:42.125 +05:00 [INF] Request starting HTTP/2 POST https://localhost:5001/User application/json 45
+2022-04-01 11:33:42.201 +05:00 [INF] Executing endpoint 'GenericRepository.Api.Controllers.UserController.Create (GenericRepository.Api)'
+2022-04-01 11:33:42.296 +05:00 [INF] Route matched with {action = "Create", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[GenericRepository.Api.Models.User] Create(GenericRepository.Api.ViewModels.UserForCreationViewModel) on controller GenericRepository.Api.Controllers.UserController (GenericRepository.Api).
+2022-04-01 11:33:44.453 +05:00 [INF] Entity Framework Core 5.0.15 initialized 'ProjectDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL' with options: None
+2022-04-01 11:33:48.145 +05:00 [INF] Executed DbCommand (244ms) [Parameters=[@p0='?' (DbType = DateTime), @p1='?' (DbType = DateTime), @p2='?', @p3='?', @p4='?' (DbType = Int32), @p5='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Users" ("CreatedDate", "EditedDate", "FirstName", "LastName", "Status", "UpdatedBy")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5)
+RETURNING "Id";
+2022-04-01 11:33:48.505 +05:00 [INF] Executing ObjectResult, writing value of type 'GenericRepository.Api.Models.User'.
+2022-04-01 11:33:48.539 +05:00 [INF] Executed action GenericRepository.Api.Controllers.UserController.Create (GenericRepository.Api) in 6226.674ms
+2022-04-01 11:33:48.545 +05:00 [INF] Executed endpoint 'GenericRepository.Api.Controllers.UserController.Create (GenericRepository.Api)'
+2022-04-01 11:33:48.549 +05:00 [INF] Request finished HTTP/2 POST https://localhost:5001/User application/json 45 - 200 - application/json;+charset=utf-8 6423.9238ms

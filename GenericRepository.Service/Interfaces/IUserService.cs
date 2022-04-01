@@ -1,6 +1,4 @@
-﻿using GenericRepository.Api.Data.IRepositories;
-using GenericRepository.Api.Data.Repositories;
-using GenericRepository.Api.Models;
+﻿using GenericRepository.Api.Models;
 using GenericRepository.Api.ViewModels;
 using System;
 using System.Collections.Generic;
